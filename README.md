@@ -44,4 +44,35 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/)
+
+## How to Run the Scripts
+
+1. Start MongoDB
+Make sure MongoDB is running on your system.
+
+# For local MongoDB
+mongod
+
+2. Open MongoDB Shell
+mongo
+
+4. Run the Insert Script
+This creates the plp_bookstore database and inserts books into the books collection.
+
+load("insert_books.js")
+
+4. Run Query Scripts
+To execute the basic and advanced queries:
+
+load("queries.js")
+
+## Tasks Covered
+ Database and collection setup (plp_bookstore, books)
+ Insertion of 10+ books
+ Basic CRUD operations (find, update, delete)
+ Advanced queries with filters, projections, sorting, pagination
+ Aggregation pipelines for analytics
+ Index creation and performance testing
+
+ ![image](https://github.com/user-attachments/assets/39c83929-0c83-410d-95e8-24a92439a5db)
